@@ -150,7 +150,7 @@ a{
 }
 
 .hamburger ul li{
-    margin-top: 40px;
+    margin-top: 20px;
     cursor: pointer;
     padding: 50px;
 }
@@ -416,4 +416,121 @@ h1{
 
 .menu_mini ul li a{
     cursor: pointer;
+}
+
+@media (max-width: 1150px){
+    .header ul{
+        display: none;  
+    }
+}
+
+@media (min-width: 1100px){
+    .header ul{
+        display: flex;
+        text-align: center;
+        width: 80%;
+        padding-top: 70px;
+    }
+    
+    .header ul li{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        border-right: 1px solid #ddd;
+        cursor: pointer;
+        transition: all 0.3s;
+        height: 40px;
+        padding-top: 10px;
+        }
+    
+        .header ul li:first-child{
+            border-left: 1px solid #ddd;
+        }
+    }
+    
+    @media (max-width: 1100px){
+        .header ul{
+            margin: 20px;
+        }
+        .header{
+            display: initial;
+        }
+        .logo{
+            position: fixed;
+            top: 10px;
+            left: 10px;
+        }
+    }
+
+@media(max-width:1000px){
+    .content_m img{
+        right: -20px;
+        bottom: -100px;
+        width:350px;
+    }
+    .f_contact_sns{
+        display: initial;
+    }
+    .f_contact{
+        width: initial;
+    }
+    #sns{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    } 
+    #sns a{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media(max-width:800px){
+    .content_m img{
+        right: -100px;
+        bottom: -100px;
+        width:350px;
+    }
+}
+
+@media(max-width:700px){
+    .f_logo{
+        display: initial;
+        text-align: center;
+    }
+    .logo_mini{
+        margin: 30px;
+    }
+}
+
+@media(max-width:600px){
+    .logo img{
+        width: 60px;
+    }
+    .reserve_fix{
+        right: 30px;
+        bottom: 30px;
+        width: 70px;
+        height: 70px;
+        font-size: 10px;
+        border: solid 0.7px #808080;
+    }
+}
+
+@media(max-width:550px){
+    #f_contact{
+        font-size: 30px;
+    }
+    h1{
+        margin-top: 0;
+    }
+}
+
+@media(max-width:500px){
+    .menu_mini ul{
+        /* display: initial; */
+        font-size: 10px;
+    }
+    /* .menu_mini ul li{
+        line-height: 30px;
+    } */
 }
