@@ -243,10 +243,6 @@ h1{
     color: #876244;
 }
 
-.more a{
-    color: #876244;
-}
-
 .service a{
     cursor: pointer;
 }
@@ -257,12 +253,6 @@ h1{
     color: #FFF9E6;
     border: solid 1px #FFF9E6;
 }
-
-.more a:hover{
-    color: #FFF9E6;
-    border: solid 1px #FFF9E6;
-}
-
 
 .event h2{
     margin: 50px;

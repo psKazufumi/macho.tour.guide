@@ -245,6 +245,7 @@ h2{
   .img_bg_01{
     background-image: url(../../picture/tourfoto.avif);
     opacity: 0.8;
+    object-fit: cover;
 }
 
 .parallax_box{
