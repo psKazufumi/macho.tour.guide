@@ -639,6 +639,7 @@ a{
     }
     .mission h2{
         margin-top: 100px;
+        overflow: hidden;
     }
     .mission img{
         width: 250px;
