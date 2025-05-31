@@ -561,6 +561,12 @@ h3{
     }
 }
 
+@media(max-width:900px){
+    #title{
+        font-size: 30px;
+    }
+}
+
 @media(max-width:800px){
     .access img{
         width: 400px;
@@ -581,6 +587,12 @@ h3{
     .detail_more{
        display: inline-block;
        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:750px){
+    #title{
+        font-size: 20px;
     }
 }
 

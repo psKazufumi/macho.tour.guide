@@ -484,6 +484,13 @@ h1{
     }
 }
 
+
+@media(max-width:900px){
+    #title{
+        font-size: 30px;
+    }
+}
+
 @media(max-width:800px){
     .content_m img{
         right: -100px;
@@ -492,10 +499,16 @@ h1{
     }
 }
 
+@media(max-width:750px){
+    #title{
+        font-size: 20px;
+    }
+}
+
 @media(max-width:700px){
     .f_logo{
         display: initial;
-        text-align: center;
+        text-align: center; 
     }
     .logo_mini{
         margin: 30px;

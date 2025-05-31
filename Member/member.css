@@ -398,11 +398,23 @@ a{
     }
 }
 
+@media(max-width:900px){
+    #title{
+        font-size: 30px;
+    }
+}
+
 @media(max-width:800px){
     .content_m img{
         right: -100px;
         bottom: -100px;
         width:350px;
+    }
+}
+
+@media(max-width:750px){
+    #title{
+        font-size: 20px;
     }
 }
 
@@ -453,6 +465,9 @@ a{
 @media(max-width:550px){
     #f_contact{
         font-size: 30px;
+    }
+    .head{
+        margin-top: 100px;
     }
 }
 

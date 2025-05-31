@@ -563,6 +563,9 @@ a{
     .body h2{
         font-size: 150px;
     }
+    #title{
+        font-size: 30px;
+    }
 }
 
 @media(max-width:850px){
@@ -579,6 +582,12 @@ a{
         right: 0;
         bottom: -100px;
         width:350px;
+    }
+}
+
+@media(max-width:750px){
+    #title{
+        font-size: 20px;
     }
 }
 
