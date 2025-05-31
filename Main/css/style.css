@@ -657,6 +657,9 @@ h3{
     #f_contact{
         font-size: 30px;
     }
+    .p{
+        margin-top: 50px;
+    }
 }
 
 @media(max-width:500px){
