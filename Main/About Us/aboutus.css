@@ -616,6 +616,9 @@ a{
     #f_contact{
         font-size: 30px;
     }
+    .body{
+        margin-top: 150px;
+    }
     .body h2{
         font-size: 90px;
     }
