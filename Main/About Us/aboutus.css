@@ -156,7 +156,7 @@ a{
 }
 
 .hamburger ul li{
-    margin-top: 40px;
+    margin-top: 20px;
     cursor: pointer;
     padding: 50px;
 }
@@ -535,6 +535,9 @@ a{
     }
 
 @media(max-width:1000px){
+    .p img{
+        margin-left: initial;
+    }
     .content_m img{
         right: -20px;
         bottom: -100px;
@@ -556,9 +559,24 @@ a{
     }
 }
 
+@media(max-width:900px){
+    .body h2{
+        font-size: 150px;
+    }
+}
+
+@media(max-width:850px){
+    .content_v{
+        margin: 0;
+    }
+    .mission h2{
+        margin-top: 75px;
+    }
+}
+
 @media(max-width:800px){
     .content_m img{
-        right: -100px;
+        right: 0;
         bottom: -100px;
         width:350px;
     }
@@ -571,6 +589,12 @@ a{
     }
     .logo_mini{
         margin: 30px;
+    }
+    .body h2{
+        font-size: 120px;
+    }
+    .p img{
+        width: 100%;
     }
 }
 
@@ -591,6 +615,21 @@ a{
 @media(max-width:550px){
     #f_contact{
         font-size: 30px;
+    }
+    .body h2{
+        font-size: 90px;
+    }
+    .mission h2{
+        margin-top: 100px;
+    }
+    .content_m,.content_v{
+        font-size: 10px;
+    }
+    #title{
+        font-size:13px;
+    }
+    #other{
+        font-size: 10px;
     }
 }
 
