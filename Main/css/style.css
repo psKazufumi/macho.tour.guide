@@ -39,7 +39,7 @@ a{
 }
 
 .hamburger ul li{
-    margin-top: 40px;
+    margin-top: 30px;
     cursor: pointer;
     padding: 50px;
 }
@@ -648,6 +648,10 @@ h3{
 }
 
 @media(max-width:500px){
+    body{
+        margin: 0 auto;
+        width: 100%;
+    }
     .direction img{
         width: 300px;
     }
@@ -662,8 +666,11 @@ h3{
         line-height: 5hv;
         width: inherit;
         margin-left: inherit;
-        margin: 15px;
+        /* margin: 15px; */
         overflow-wrap: break-word;
+        display: inline-block;
+        text-align: center;
+        margin-left: 0;
     }
     .menu_mini ul{
         /* display: initial; */
