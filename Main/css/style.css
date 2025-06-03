@@ -692,7 +692,7 @@ h3{
     }
     .service_cel img{
         width: 100%;
-        opacity: 0.7;
+        opacity: 0.5;
     }
     #content_cel{
         position: absolute;
@@ -700,7 +700,7 @@ h3{
         left: 50%;
         transform: translate(-50%, -50%);
         line-height: 25px;
-        color: white;
+        color: black;
         font-size: 10px;
         border-radius: 20px;
     }
