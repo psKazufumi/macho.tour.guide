@@ -13,6 +13,12 @@ body{
     background-repeat: no-repeat; */
 }
 
+ul li{
+    font-family: var(--font-family-serif);
+    --font-family-serif: "notoSerifJp", "Noto Serif JP", "游明朝", "Yu Mincho", yumincho, "Hiragino Mincho Pro", serif;
+    font-weight: lighter;
+}
+
 .logo{
     text-align: center;
     margin: 30px;
