@@ -7,6 +7,12 @@ body{
     font-style: normal;
 }
 
+ul li{
+    font-family: var(--font-family-serif);
+    --font-family-serif: "notoSerifJp", "Noto Serif JP", "游明朝", "Yu Mincho", yumincho, "Hiragino Mincho Pro", serif;
+    font-weight: lighter;
+}
+
 .custom-shape-divider-bottom-1745629662 {
     position: absolute;
     bottom: 0;
