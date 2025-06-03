@@ -41,7 +41,7 @@ a{
 .hamburger ul li{
     margin-top: 30px;
     cursor: pointer;
-    padding: 50px;
+    padding: 30px;
 }
 
 .material-icons-close{
@@ -190,6 +190,10 @@ h2{
     margin-top: 30px;
     display: flex;
     gap: 20px;
+}
+
+.service_cel{
+    display: none;
 }
 
 .reserve{
@@ -677,15 +681,28 @@ h3{
         top: 10%;
         font-size: 100%;
     }
-    .parallax_content{
-        line-height: 5hv;
-        width: inherit;
-        margin-left: inherit;
-        /* margin: 15px; */
-        overflow-wrap: break-word;
-        display: inline-block;
-        text-align: center;
-        margin-left: 0;
+    .parallax_box{
+        display: none;
+    }
+    .service_cel{
+        display: inherit;
+        position: relative;
+        margin-bottom: 50px;
+        box-shadow: 0 40px 15px rgba(0, 0, 0, .5);
+    }
+    .service_cel img{
+        width: 100%;
+        opacity: 0.7;
+    }
+    #content_cel{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 25px;
+        color: white;
+        font-size: 10px;
+        border-radius: 20px;
     }
     .menu_mini ul{
         /* display: initial; */

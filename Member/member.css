@@ -1,3 +1,16 @@
+ul li{
+    font-family: var(--font-family-serif);
+    --font-family-serif: "notoSerifJp", "Noto Serif JP", "游明朝", "Yu Mincho", yumincho, "Hiragino Mincho Pro", serif;
+    font-weight: lighter;
+}
+
+.head p{
+        margin-top: 10px;
+        font-family: var(--font-family-serif);
+        --font-family-serif: "notoSerifJp", "Noto Serif JP", "游明朝", "Yu Mincho", yumincho, "Hiragino Mincho Pro", serif;
+        font-weight: lighter;
+}
+
 a{
     cursor: unset;
     text-decoration: none;
@@ -32,7 +45,7 @@ a{
 .hamburger ul li{
     margin-top: 0px;
     cursor: pointer;
-    padding: 50px;
+    padding: 30px;
     list-style-type: none;
     color: white;
 }
@@ -475,6 +488,10 @@ a{
     .menu_mini ul{
         /* display: initial; */
         font-size: 10px;
+        padding-left: 0;
+    }
+    ul{
+        padding-left: 0;
     }
     /* .menu_mini ul li{
         line-height: 30px;

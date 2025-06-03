@@ -152,7 +152,7 @@ a{
 .hamburger ul li{
     margin-top: 15px;
     cursor: pointer;
-    padding: 50px;
+    padding: 30px;
 }
 
 .material-icons-close{
@@ -542,6 +542,10 @@ h1{
     .menu_mini ul{
         /* display: initial; */
         font-size: 10px;
+        padding-left: 0;
+    }
+    ul{
+        padding-left: 0;
     }
     /* .menu_mini ul li{
         line-height: 30px;
