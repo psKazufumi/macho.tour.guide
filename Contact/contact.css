@@ -7,10 +7,29 @@ body{
     font-style: normal;
 }
 
+.content{
+    margin-top: 200px;
+}
+
+h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.mail{
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+.sns{
+    padding-top: 20px;
+}
+
 ul li{
     font-family: var(--font-family-serif);
     --font-family-serif: "notoSerifJp", "Noto Serif JP", "游明朝", "Yu Mincho", yumincho, "Hiragino Mincho Pro", serif;
     font-weight: lighter;
+    color: black;
 }
 
 .custom-shape-divider-bottom-1745629662 {
@@ -37,6 +56,29 @@ ul li{
 
 a{
     cursor: unset;
+}
+
+.language{
+    position: fixed;
+    top: 20px;
+    right: 50px;
+    z-index: 100;
+    font-weight: 600;
+    font-family: "SF Pro JP", sans-serif;
+}
+
+.language ul{
+    display: flex;
+    list-style: none;
+}
+
+.language ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.language ul li:nth-child(odd){
+    border-right: solid 2px black;
 }
 
 .logo{
@@ -71,7 +113,7 @@ a{
 .header ul li{
     width: 20%;
     text-align: center;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid black;
     cursor: pointer;
     transition: all 0.3s;
     padding-top: 10px;
@@ -84,7 +126,7 @@ a{
 }
 
 .header ul li:first-child{
-    border-left: 1px solid #ddd;
+    border-left: 1px solid black;
 }
 
 .header ul li a{
@@ -114,7 +156,6 @@ a{
     font-weight: 400;
     font-style: normal;
 }
-
 
 .sns img{
     width: 50px;
@@ -163,8 +204,8 @@ a{
 
 .material-icons-close{
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 80px;
+    right: 80px;
 }
 
 .material-icons-close.is-active{
@@ -173,8 +214,8 @@ a{
 
 .material-icons{
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 75px;
+    right: 50px;
     cursor: pointer;
     font-size: 150px;
     z-index: 100;
@@ -436,6 +477,7 @@ h1{
         text-align: center;
         width: 80%;
         padding-top: 70px;
+        padding-right: 150px;
     }
     
     .header ul li{

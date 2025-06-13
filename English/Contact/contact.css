@@ -1,42 +1,134 @@
-@charset "UTF-8";
-
 body{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 0;
+    font-family: "josefin-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+ul li{
     font-family: var(--font-family-serif);
     --font-family-serif: "notoSerifJp", "Noto Serif JP", "游明朝", "Yu Mincho", yumincho, "Hiragino Mincho Pro", serif;
-    font-size: 15px;
-    margin: 0 auto;
+    font-weight: lighter;
+}
+
+.custom-shape-divider-bottom-1745629662 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    background-color: white;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -10;
+}
+
+.custom-shape-divider-bottom-1745629662 svg {
+    display: block;
+    width: calc(150% + 30px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1745629662 .shape-fill {
+    fill: #EFEFEF;
 }
 
 a{
     cursor: unset;
-    text-decoration: none;
-    color: initial;
 }
 
-.language{
+.logo{
+    text-align: center;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.logo h1{
+    font-family: "Zapfino";
+    font-style: bold;
+}
+
+.header{
+    margin: 0 auto;
     position: fixed;
-    top: 20px;
-    right: 50px;
+    width: 100%;
+    top: 0;
     z-index: 100;
-    font-weight: 600;
-    font-family: "SF Pro JP", sans-serif;
+    /* background-color: #fff; */
 }
 
-.language ul{
+.header ul{
     display: flex;
-    list-style: none;
+    text-align: center;
 }
 
-.language ul li{
-    padding-left: 20px;
-    padding-right: 20px;
+.header ul li{
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.language ul li:nth-child(odd){
-    border-right: solid 2px black;
+.header ul li:hover {
+    opacity: 0.8;
+    background-color: #ddd;
 }
+
+.header ul li:first-child{
+    border-left: 1px solid #ddd;
+}
+
+.header ul li a{
+    display: block !important;
+}
+
+.header_img{
+    text-align: center;
+    display: block;
+    margin: 30px;
+    /* position: relative; */
+}
+
+.header_img img{
+    opacity: 0.6;
+}
+
+.header_img p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    font-family: 'fantasy';
+    opacity: 0.7;
+    font-family: "Damion", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.sns img{
+    width: 50px;
+}
+
+#back{
+    margin: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* --en-font-family: 'brandon-grotesque', sans-serif; */
 
 .hamburger{
     position: absolute;
@@ -67,13 +159,12 @@ a{
     margin-top: 15px;
     cursor: pointer;
     padding: 30px;
-    list-style-type: none;
 }
 
 .material-icons-close{
     position: fixed;
-    top: 80px;
-    right: 80px;
+    top: 20px;
+    right: 20px;
 }
 
 .material-icons-close.is-active{
@@ -82,8 +173,8 @@ a{
 
 .material-icons{
     position: fixed;
-    top: 75px;
-    right: 50px;
+    top: 20px;
+    right: 20px;
     cursor: pointer;
     font-size: 150px;
     z-index: 100;
@@ -131,15 +222,6 @@ a{
     position: fixed;
 }
 
-.header ul li{
-    list-style: none;
-}
-
-.header ul li a{
-    text-decoration: none;
-    color: initial;
-}
-
 .reserve_fix{
     position: fixed;
     right: 50px;
@@ -182,7 +264,7 @@ a{
     cursor: pointer;
     transition: all 0.3s;
     height: 40px;
-    padding-top: 10px;
+    padding-top: 20px;
     }
 
     .header ul li:first-child{
@@ -202,85 +284,58 @@ a{
     background-color: #ddd;
 }
 
+.header ul li, .hamburger ul li{
+    list-style: none
+}
+
+.hamburger ul{
+    color: white;
+}
+
 .header ul li a{
     display: block !important;
 }
 
-.head{
-    margin-top: 200px;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-items: center;
+.header_img{
+    text-align: center;
+    display: block;
+    margin: 0;
+    position: relative;
+}
+
+.header_img img{
+    opacity: 0.6;
+    position: relative;
+    width: 100%;
 }
 
 h1{
-    font-size: 50px;
+    margin-top: 100px;
 }
 
-.head p{
+.slant-bg {
+    width: 100%;
     margin: 0;
-    margin-top: -40px;
+    position: relative;
+    top:10px;
 }
 
-.service img{
-    width: 400px;
-    height: 300px;
-    border-radius: 30px;
-    /* opacity: .8; */
+.slant-bg p {
+    width: 100%;
+    margin: 0 auto;
 }
 
-.service{
-    margin: 50px;
-    display: flex;
-    gap: 50px;
-}
-
-.title{
-    font-size: 50px;
-}
-
-.content{
-    padding: 50px;
-    background-color: #FFF9E6;
-    border-radius: 200px;
-    margin-top: 50px;
-}
-
-.content h2{
-    color: #876244;
-    font-size: 50px;
-    margin-top: -40px;
-    margin-left: -20px;
-}
-
-.explain{
-    opacity: .4;
-    margin: 10px;
-}
-
-.more{
-    padding: 20px;
-    border: solid 1px #876244;
-    width: 200px;
-    color: #876244;
-}
-
-.service a{
-    cursor: pointer;
-}
-
-.more:hover{
-    background-color: #876244;
-    transition: .3s;
-    color: #FFF9E6;
-    border: solid 1px #FFF9E6;
-}
-
-.event h2{
-    margin: 50px;
-    font-size: 50px;
-}
+/* .slant-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #F2F2F2;
+    transform: skewY(-7deg);
+    z-index: -1;
+} */
 
 .footer{
     /* background-color: #ddd; */
@@ -297,8 +352,6 @@ h1{
 
 .footer a{
     cursor: pointer;
-    text-decoration: none;
-    color: initial;
 }
 
 .f_contact_sns{
@@ -383,8 +436,6 @@ h1{
         text-align: center;
         width: 80%;
         padding-top: 70px;
-        padding-left: 0;
-        padding-right: 150px;
     }
     
     .header ul li{
@@ -439,19 +490,6 @@ h1{
     }
 }
 
-@media(max-width:950px){
-    .service_block{
-        text-align: center;
-    }
-    .service{
-        display: initial;
-        display: inline-block;
-        text-align: center;
-    }
-    .more{
-        display: inline-block;
-    }
-}
 
 @media(max-width:900px){
     #title{
@@ -476,21 +514,10 @@ h1{
 @media(max-width:700px){
     .f_logo{
         display: initial;
-        text-align: center;
+        text-align: center; 
     }
     .logo_mini{
         margin: 30px;
-    }
-    .head{
-        display: initial;
-        display: inline-block;
-        margin-top: 200px;
-        margin-left: 50px;
-    }
-    #head_p{
-        margin-top: 50px;
-        margin-left: 50px;
-        line-height: 30px;
     }
 }
 
@@ -512,31 +539,21 @@ h1{
     #f_contact{
         font-size: 30px;
     }
-    .service{
-        margin: 0;
-    }
-    .service:nth-child(even){
-        margin-top: 100px;
+    h1{
+        margin-top: 0;
     }
 }
 
 @media(max-width:500px){
     .menu_mini ul{
+        /* display: initial; */
         font-size: 10px;
         padding-left: 0;
     }
-     .service img{
-        width: 250px;
-        height: 200px;
-     }
-     #head_p{
-        font-size: 10px;
-        margin-left: 90px;
-     }
-     .head{
-        margin-top: 150px;
-     }
-     ul{
+    ul{
         padding-left: 0;
     }
+    /* .menu_mini ul li{
+        line-height: 30px;
+    } */
 }
