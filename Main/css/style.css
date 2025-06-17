@@ -342,7 +342,6 @@ h2{
 .direction img{
     width: 500px;
     border-radius: 30px;
-    opacity: .6;
 }
 
 .direction a{
@@ -665,6 +664,9 @@ h3{
     .logo img{
         width: 60px;
     }
+    .language{
+        right: 35px;
+    }
     .reserve_fix{
         right: 30px;
         bottom: 30px;
@@ -712,22 +714,21 @@ h3{
         display: inherit;
         position: relative;
         margin-bottom: 50px;
-        box-shadow: 0 40px 15px rgba(0, 0, 0, .5);
     }
     .service_cel img{
         width: 100%;
-        opacity: 0.5;
+        /* opacity: 0.5; */
     }
     #content_cel{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(45%, -20%);
         line-height: 25px;
         color: black;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 5px;
         font-size: 15px;
-        border-radius: 20px;
-        width: 80%;
+        width: 65%;
+        padding: 10px;
     }
     .menu_mini ul{
         /* display: initial; */
@@ -744,5 +745,14 @@ h3{
     }
     .parallax_content{
         font-size: 10px;
+    }
+    .logo{
+        margin: 5px;
+    }
+    .language{
+        right: 10px;
+    }
+    .material-icons{
+        right: 25px;
     }
 }

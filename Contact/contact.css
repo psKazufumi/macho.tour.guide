@@ -567,6 +567,12 @@ h1{
     .logo img{
         width: 60px;
     }
+    .logo img{
+        width: 60px;
+    }
+    .language{
+        right: 35px;
+    }
     .reserve_fix{
         right: 30px;
         bottom: 30px;
@@ -598,4 +604,13 @@ h1{
     /* .menu_mini ul li{
         line-height: 30px;
     } */
+    .logo{
+        margin: 5px;
+    }
+    .language{
+        right: 10px;
+    }
+    .material-icons{
+        right: 25px;
+    }
 }

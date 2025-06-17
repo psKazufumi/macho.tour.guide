@@ -647,6 +647,12 @@ a{
     .logo img{
         width: 60px;
     }
+    .logo img{
+        width: 60px;
+    }
+    .language{
+        right: 35px;
+    }
     .reserve_fix{
         right: 30px;
         bottom: 30px;
@@ -695,5 +701,14 @@ a{
     } */
     .mission h2{
         font-size: 90px;
+    }
+    .logo{
+        margin: 5px;
+    }
+    .language{
+        right: 10px;
+    }
+    .material-icons{
+        right: 25px;
     }
 }

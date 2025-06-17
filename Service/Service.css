@@ -262,7 +262,7 @@ h1{
 .more{
     padding: 20px;
     border: solid 1px #876244;
-    width: 200px;
+    width: 220px;
     color: #876244;
 }
 
@@ -474,6 +474,16 @@ h1{
 }
 
 @media(max-width:700px){
+    .logo img{
+        width: 60px;
+    }
+    #s_title{
+        color: #876244;
+    }
+    #s_title h1{
+        font-size: 50px;
+        transform: translate(-20px, -50px);
+    }
     .f_logo{
         display: initial;
         text-align: center;
@@ -495,8 +505,8 @@ h1{
 }
 
 @media(max-width:600px){
-    .logo img{
-        width: 60px;
+    .language{
+        right: 35px;
     }
     .reserve_fix{
         right: 30px;
@@ -538,5 +548,14 @@ h1{
      }
      ul{
         padding-left: 0;
+    }
+    .logo{
+        margin: 5px;
+    }
+    .language{
+        right: 10px;
+    }
+    .material-icons{
+        right: 25px;
     }
 }
