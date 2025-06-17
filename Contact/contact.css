@@ -508,6 +508,9 @@ h1{
             top: 10px;
             left: 10px;
         }
+        .content{
+            margin-top: 150px;    
+        }
     }
 
 @media(max-width:1000px){
