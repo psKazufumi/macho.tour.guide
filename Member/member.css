@@ -404,8 +404,9 @@ a{
         }
         .head{
             margin: initial;
+            margin-top: 0 !important;
             padding: 50px;
-            padding-top: 75px;
+            padding-top: 100px;
         } 
     }
 
