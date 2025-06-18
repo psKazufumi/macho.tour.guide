@@ -720,7 +720,7 @@ h3{
         /* opacity: 0.5; */
     }
     #content_cel{
-        transform: translate(45%, -20%);
+        transform: translate(45%, -10%);
         line-height: 25px;
         color: black;
         background-color: rgba(255, 255, 255, 0.1);

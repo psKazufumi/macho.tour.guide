@@ -560,4 +560,7 @@ a{
     .material-icons{
         right: 25px;
     }
+    .staff p{
+        margin: 5px;
+    }
 }

@@ -711,4 +711,7 @@ a{
     .material-icons{
         right: 25px;
     }
+    .p{
+        padding-top: 25px;
+    }
 }
