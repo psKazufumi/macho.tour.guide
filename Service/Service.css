@@ -214,6 +214,15 @@ a{
     align-items: center;
 }
 
+#s_title h1{
+    font-size: 30px;
+}
+
+#s_title p{
+    font-size: 10px;
+    color: #808080;
+}
+
 h1{
     font-size: 50px;
 }
@@ -237,7 +246,9 @@ h1{
 }
 
 .title{
-    font-size: 50px;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .content{
