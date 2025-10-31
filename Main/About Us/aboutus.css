@@ -8,9 +8,6 @@ body{
     font-style: normal;
     position: relative;
     background-color: #f2f2f2;
-    /* text-align: left;
-    background-image: url(../../picture/logo.png);
-    background-repeat: no-repeat; */
 }
 
 .language{
@@ -673,15 +670,29 @@ a{
     .body h2{
         font-size: 90px;
     }
+    .mission{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
     .mission h2{
         margin-top: 100px;
-        overflow: hidden;
     }
     .mission img{
         width: 250px;
     }
+    .content_m{
+        margin: 35px;
+        margin-bottom: 100px;
+    }
     .content_m,.content_v{
         font-size: 10px;
+    }
+    .content_v2{
+        padding-left: 20%;
+    }
+    .value{
+        margin-top: -50px;
     }
     #title{
         font-size:13px;
